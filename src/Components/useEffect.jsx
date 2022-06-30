@@ -33,7 +33,7 @@ const Fatorial = (props) => {
     function () {
       setStatus(number % 2 === 0 ? 'Par' : 'Ímpar');
     },
-    [number]
+    []
   );
 
   return (

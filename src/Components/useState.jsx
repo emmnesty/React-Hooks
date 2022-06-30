@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 
-const useContador = (props) => {
+const Contador = (props) => {
   const [count, setCount] = useState(0);
 
   const [name, setName] = useState('');
@@ -41,4 +41,4 @@ const useContador = (props) => {
   );
 };
 
-export default useContador;
+export default Contador;

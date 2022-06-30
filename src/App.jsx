@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Contador from './Components/useContador';
-import Fatorial from './Components/useFatorial';
+import Contador from './Components/useState'
+import Fatorial from './Components/useEffect'
+import Ref from './Components/useRef';
 import Home from './Home'
 
 function App() {
@@ -8,7 +9,9 @@ function App() {
     <Routes>
       <Route path="contador" element={<Contador />} />
       <Route path="fatorial" element={<Fatorial />} />
+      <Route path="ref" element={<Ref />} />
       <Route path="/" element={<Home />} />
+
       
     </Routes>
    )

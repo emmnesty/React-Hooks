@@ -8,6 +8,8 @@ const Home = (props) => {
       <Link to="/contador">Contador</Link>
       
       <Link to="/fatorial">Fatorial</Link>
+      
+      <Link to="/ref">useRef</Link>
     </div>
   );
 };
