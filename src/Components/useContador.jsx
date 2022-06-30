@@ -1,11 +1,13 @@
 import { useState } from 'react';
 
-const Contador = (props) => {
+
+const useContador = (props) => {
   const [count, setCount] = useState(0);
 
   const [name, setName] = useState('');
 
   return (
+    
     <div>
       <h1>Contador</h1>
       <h2>Contador: {count}</h2>
@@ -33,8 +35,10 @@ const Contador = (props) => {
         </h1>
         <span>{name}</span>
       </section>
+
+      
     </div>
   );
 };
 
-export default Contador;
+export default useContador;
